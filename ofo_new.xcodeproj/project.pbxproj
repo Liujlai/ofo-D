@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4BE2EDB1023B62F6CCDBA7 /* Pods_ofo_new.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F373FB2A4B5729EAD0080AF5 /* Pods_ofo_new.framework */; };
+		7856F95F1F25E95B00DD87B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7856F95E1F25E95B00DD87B6 /* MapKit.framework */; };
+		7856F9611F25EB0E00DD87B6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856F9601F25EB0D00DD87B6 /* WebViewController.swift */; };
+		7856F9631F26D8D300DD87B6 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856F9621F26D8D300DD87B6 /* MenuController.swift */; };
 		7872FC271F258C8B00CEB968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872FC261F258C8B00CEB968 /* AppDelegate.swift */; };
 		7872FC291F258C8B00CEB968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872FC281F258C8B00CEB968 /* ViewController.swift */; };
 		7872FC2C1F258C8B00CEB968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7872FC2A1F258C8B00CEB968 /* Main.storyboard */; };
@@ -15,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72992499394FE3A491BCF208 /* Pods-ofo_new.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofo_new.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofo_new/Pods-ofo_new.release.xcconfig"; sourceTree = "<group>"; };
+		7856F95E1F25E95B00DD87B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7856F9601F25EB0D00DD87B6 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7856F9621F26D8D300DD87B6 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		7856F9641F26F02F00DD87B6 /* ofo_new-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ofo_new-Bridging-Header.h"; sourceTree = "<group>"; };
 		7872FC231F258C8B00CEB968 /* ofo_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofo_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7872FC261F258C8B00CEB968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7872FC281F258C8B00CEB968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,8 @@
 		7872FC2D1F258C8B00CEB968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7872FC301F258C8B00CEB968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7872FC321F258C8B00CEB968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F373FB2A4B5729EAD0080AF5 /* Pods_ofo_new.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ofo_new.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F731105ED2F7141F1FE11D29 /* Pods-ofo_new.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofo_new.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ofo_new/Pods-ofo_new.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7856F95F1F25E95B00DD87B6 /* MapKit.framework in Frameworks */,
+				3E4BE2EDB1023B62F6CCDBA7 /* Pods_ofo_new.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		252CE551183213906F8B0529 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F731105ED2F7141F1FE11D29 /* Pods-ofo_new.debug.xcconfig */,
+				72992499394FE3A491BCF208 /* Pods-ofo_new.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7856F95B1F25E5B900DD87B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7856F95E1F25E95B00DD87B6 /* MapKit.framework */,
+				F373FB2A4B5729EAD0080AF5 /* Pods_ofo_new.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7872FC1A1F258C8B00CEB968 = {
 			isa = PBXGroup;
 			children = (
 				7872FC251F258C8B00CEB968 /* ofo_new */,
 				7872FC241F258C8B00CEB968 /* Products */,
+				7856F95B1F25E5B900DD87B6 /* Frameworks */,
+				252CE551183213906F8B0529 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +90,12 @@
 				7872FC261F258C8B00CEB968 /* AppDelegate.swift */,
 				7872FC281F258C8B00CEB968 /* ViewController.swift */,
 				7872FC2A1F258C8B00CEB968 /* Main.storyboard */,
+				7856F9621F26D8D300DD87B6 /* MenuController.swift */,
+				7856F9601F25EB0D00DD87B6 /* WebViewController.swift */,
 				7872FC2D1F258C8B00CEB968 /* Assets.xcassets */,
 				7872FC2F1F258C8B00CEB968 /* LaunchScreen.storyboard */,
 				7872FC321F258C8B00CEB968 /* Info.plist */,
+				7856F9641F26F02F00DD87B6 /* ofo_new-Bridging-Header.h */,
 			);
 			path = ofo_new;
 			sourceTree = "<group>";
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7872FC351F258C8B00CEB968 /* Build configuration list for PBXNativeTarget "ofo_new" */;
 			buildPhases = (
+				F733C268B1215E0E2320FD6F /* [CP] Check Pods Manifest.lock */,
 				7872FC1F1F258C8B00CEB968 /* Sources */,
 				7872FC201F258C8B00CEB968 /* Frameworks */,
 				7872FC211F258C8B00CEB968 /* Resources */,
+				D26651FD0450F75032CD1A60 /* [CP] Embed Pods Frameworks */,
+				764126BED1F7D6B6B7C287FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +135,13 @@
 				TargetAttributes = {
 					7872FC221F258C8B00CEB968 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,12 +176,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		764126BED1F7D6B6B7C287FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofo_new/Pods-ofo_new-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26651FD0450F75032CD1A60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ofo_new/Pods-ofo_new-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F733C268B1215E0E2320FD6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7872FC1F1F258C8B00CEB968 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7856F9631F26D8D300DD87B6 /* MenuController.swift in Sources */,
 				7872FC291F258C8B00CEB968 /* ViewController.swift in Sources */,
+				7856F9611F25EB0E00DD87B6 /* WebViewController.swift in Sources */,
 				7872FC271F258C8B00CEB968 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,24 +353,33 @@
 		};
 		7872FC361F258C8B00CEB968 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F731105ED2F7141F1FE11D29 /* Pods-ofo_new.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ofo_new/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.day.ofo-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ofo_new/ofo_new-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7872FC371F258C8B00CEB968 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72992499394FE3A491BCF208 /* Pods-ofo_new.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ofo_new/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.day.ofo-new";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ofo_new/ofo_new-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -299,6 +403,7 @@
 				7872FC371F258C8B00CEB968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
