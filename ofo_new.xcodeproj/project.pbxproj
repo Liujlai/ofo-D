@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3E4BE2EDB1023B62F6CCDBA7 /* Pods_ofo_new.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F373FB2A4B5729EAD0080AF5 /* Pods_ofo_new.framework */; };
-		7856F95F1F25E95B00DD87B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7856F95E1F25E95B00DD87B6 /* MapKit.framework */; };
 		7856F9611F25EB0E00DD87B6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856F9601F25EB0D00DD87B6 /* WebViewController.swift */; };
 		7856F9631F26D8D300DD87B6 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856F9621F26D8D300DD87B6 /* MenuController.swift */; };
+		7856F9681F26F7AD00DD87B6 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7856F9671F26F7AD00DD87B6 /* AboutController.swift */; };
 		7872FC271F258C8B00CEB968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872FC261F258C8B00CEB968 /* AppDelegate.swift */; };
 		7872FC291F258C8B00CEB968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872FC281F258C8B00CEB968 /* ViewController.swift */; };
 		7872FC2C1F258C8B00CEB968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7872FC2A1F258C8B00CEB968 /* Main.storyboard */; };
@@ -20,10 +20,10 @@
 
 /* Begin PBXFileReference section */
 		72992499394FE3A491BCF208 /* Pods-ofo_new.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ofo_new.release.xcconfig"; path = "Pods/Target Support Files/Pods-ofo_new/Pods-ofo_new.release.xcconfig"; sourceTree = "<group>"; };
-		7856F95E1F25E95B00DD87B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7856F9601F25EB0D00DD87B6 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		7856F9621F26D8D300DD87B6 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		7856F9641F26F02F00DD87B6 /* ofo_new-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ofo_new-Bridging-Header.h"; sourceTree = "<group>"; };
+		7856F9671F26F7AD00DD87B6 /* AboutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
 		7872FC231F258C8B00CEB968 /* ofo_new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofo_new.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7872FC261F258C8B00CEB968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7872FC281F258C8B00CEB968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7856F95F1F25E95B00DD87B6 /* MapKit.framework in Frameworks */,
 				3E4BE2EDB1023B62F6CCDBA7 /* Pods_ofo_new.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +59,6 @@
 		7856F95B1F25E5B900DD87B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7856F95E1F25E95B00DD87B6 /* MapKit.framework */,
 				F373FB2A4B5729EAD0080AF5 /* Pods_ofo_new.framework */,
 			);
 			name = Frameworks;
@@ -90,6 +88,7 @@
 				7872FC261F258C8B00CEB968 /* AppDelegate.swift */,
 				7872FC281F258C8B00CEB968 /* ViewController.swift */,
 				7872FC2A1F258C8B00CEB968 /* Main.storyboard */,
+				7856F9671F26F7AD00DD87B6 /* AboutController.swift */,
 				7856F9621F26D8D300DD87B6 /* MenuController.swift */,
 				7856F9601F25EB0D00DD87B6 /* WebViewController.swift */,
 				7872FC2D1F258C8B00CEB968 /* Assets.xcassets */,
@@ -139,7 +138,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -230,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7856F9631F26D8D300DD87B6 /* MenuController.swift in Sources */,
+				7856F9681F26F7AD00DD87B6 /* AboutController.swift in Sources */,
 				7872FC291F258C8B00CEB968 /* ViewController.swift in Sources */,
 				7856F9611F25EB0E00DD87B6 /* WebViewController.swift in Sources */,
 				7872FC271F258C8B00CEB968 /* AppDelegate.swift in Sources */,

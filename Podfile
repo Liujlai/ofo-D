@@ -6,5 +6,9 @@ target 'ofo_new' do
   use_frameworks!
 
   pod ‘SWRevealViewController’
+  pod ‘AMap3DMap’
+  pod ‘AMapSearch’
+  pod ‘AMapLocation’
+  pod ‘AMapNavi’
 
 end
